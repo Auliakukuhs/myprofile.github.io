@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Submission Kukuh</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="assets/utils/dropdown.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="jumbotron">
+			<h1>HELLO, KUKUH'S HERE!</h1>
+			<p>Innovative <code>Web Developer</code> with 1.5 years of experience.</p>
+		</div>
+		<nav>
+			<div id="dropdown" class="topnav">
+				<a href="#home" class="active">Menu</a>
+				<div id="mobileRender">
+					<li><a href="#work" onclick="myFunction()">Work History</a></li>
+					<li><a href="#skill" onclick="myFunction()">Skill</a></li>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			<ul id="navigation">
+				<li><a href="#work">Work History</a></li>
+				<li><a href="#skill">Skill</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="content">
+			<article class="card" id="work">
+				<h2>Work History</h2>
+				<div class="experiencebox">
+					<h3>IT Associate - PT Komunal Finansial Indonesia, Surabaya, East Java</h3>
+					<p>June 2019 - June 2020</p>
+				</div>
+				<div class="experiencebox">
+					<h3>Full-Stack Web Developer - Freelance</h3>
+					<p>Aug 2018 - Dec 2018</p>
+				</div>
+				<div class="experiencebox">
+					<h3>Front-End Web Developer - Internship, Jogjaland.net</h3>
+					<p>June 2018 - Aug 2018</p>
+				</div>
+			</article>
+			<article class="card" id="skill">
+				<h2>Skill</h2>
+				<div class="flex-container-column">
+					<div class="flex-container-row">
+						<div class="button">HTML</div>
+						<div class="button">CSS</div>
+						<div class="button">Javascript</div>
+						<div class="button">React JS</div>
+					</div>
+				</div>
+			</article>
+		</div>
+		<aside>
+			<article class="profile card">
+				<header>
+					<figure>
+							<img src="assets/image/kukuh2.jpg">
+							<figcaption>Aulia Kukuh Saputra</figcaption>
+					</figure>
+					<hr>
+				</header>
+				<section>
+					<h3>Status : <span class="status"><i>Keep Spirit!</i></span></h3>
+				</section>
+			</article>
+		</aside>
+	</main>
+	<footer>
+		&copy; 2021, Made with love
+	</footer>
+</body>
+</html>
